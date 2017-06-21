@@ -1,19 +1,27 @@
 <html>
   <head>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="scripts/index.js"></script>
     <link rel="stylesheet" type="text/css" href="stylesheets/index.css">
   </head>
 
   <body>
     <div class="Interstitial">
-      <div class="Interstitial-providerInfo">
+      <div class="ProviderInfo">
       </div>
 
-      <div class="Interstitial-productInfo">
-        <span>$49.99</span>
-      </div>
+      <div class="Interstitial-extraInfo">
+        <div class="ProductInfo">
+          <p>
+            Premiums starting at
+            <span class="ProductInfo-price">$49.99</span>
+          </p>
+        </div>
 
-      <div class="Interstitial-actions">
+        <div class="Actions">
+          <button class="Actions-action Actions-mainAction">Add</button>
+          <button class="Actions-action Actions-secondaryAction">No Thanks</button>
+        </div>
       </div>
     </div>
   </body>
